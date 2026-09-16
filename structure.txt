@@ -1,0 +1,134 @@
+.gitignore
+bun.lock
+index.html
+package.json
+project-notes.md
+README.md
+structure.txt
+tsconfig.json
+vite.config.ts
+
+.tanstack
+Folder PATH listing
+Volume serial number is 7478-274D
+C:\USERS\ADMIN\DOWNLOADS\VS-CODE\KT-JULY-MONTH\JOB-PLACEMENT-SERVICES-WEBSITE\.TANSTACK
+\---tmp
+public
+Folder PATH listing
+Volume serial number is 7478-274D
+C:\USERS\ADMIN\DOWNLOADS\VS-CODE\KT-JULY-MONTH\JOB-PLACEMENT-SERVICES-WEBSITE\PUBLIC
+No subfolders exist 
+
+src
+Folder PATH listing
+Volume serial number is 7478-274D
+C:\USERS\ADMIN\DOWNLOADS\VS-CODE\KT-JULY-MONTH\JOB-PLACEMENT-SERVICES-WEBSITE\SRC
+|   router.tsx
+|   routeTree.gen.ts
+|   styles.css
+|   vite-env.d.ts
+|   
++---components
+|   +---shared
+|   |       AppShell.tsx
+|   |       Breadcrumbs.tsx
+|   |       Footer.tsx
+|   |       Header.tsx
+|   |       ThemeToggle.tsx
+|   |       
+|   \---ui
+|           button.tsx
+|           
++---features
+|   +---contact
+|   |   +---components
+|   |   |       ContactForm.tsx
+|   |   |       OfficeDetails.tsx
+|   |   |       
+|   |   +---constants
+|   |   +---data
+|   |   +---hooks
+|   |   +---pages
+|   |   |       ContactPage.tsx
+|   |   |       
+|   |   +---types
+|   |   \---utils
+|   +---employers
+|   |   +---components
+|   |   |       HiringWorkflow.tsx
+|   |   |       ValueModules.tsx
+|   |   |       
+|   |   +---constants
+|   |   +---data
+|   |   +---hooks
+|   |   +---pages
+|   |   |       EmployersPage.tsx
+|   |   |       
+|   |   +---types
+|   |   \---utils
+|   +---home
+|   |   +---components
+|   |   |       ConstellationHero.tsx
+|   |   |       GrowthNarrative.tsx
+|   |   |       TrustStrip.tsx
+|   |   |       
+|   |   +---constants
+|   |   +---data
+|   |   +---hooks
+|   |   +---pages
+|   |   |       HomePage.tsx
+|   |   |       
+|   |   +---types
+|   |   \---utils
+|   +---jobs
+|   |   +---components
+|   |   |       JobEmptyState.tsx
+|   |   |       JobFilters.tsx
+|   |   |       JobLattice.tsx
+|   |   |       
+|   |   +---constants
+|   |   +---data
+|   |   |       jobs.ts
+|   |   |       
+|   |   +---hooks
+|   |   +---pages
+|   |   |       JobsPage.tsx
+|   |   |       
+|   |   +---types
+|   |   |       job.ts
+|   |   |       
+|   |   \---utils
+|   +---project-notes
+|   |   +---components
+|   |   +---constants
+|   |   +---data
+|   |   +---hooks
+|   |   +---pages
+|   |   |       ProjectNotesPage.tsx
+|   |   |       
+|   |   +---types
+|   |   \---utils
+|   \---services
+|       +---components
+|       |       PlacementPathways.tsx
+|       |       
+|       +---constants
+|       +---data
+|       +---hooks
+|       +---pages
+|       |       ServicesPage.tsx
+|       |       
+|       +---types
+|       \---utils
++---lib
+|       theme.tsx
+|       utils.ts
+|       
+\---routes
+        contact.tsx
+        employers.tsx
+        jobs.tsx
+        project-notes.tsx
+        services.tsx
+        __root.tsx
+        
